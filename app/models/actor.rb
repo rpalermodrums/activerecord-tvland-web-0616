@@ -12,7 +12,7 @@ class Actor < ActiveRecord::Base
     end
   end
 
-  def build_show(options)
-    self.shows.build(options)
-  end
+  # def build_show(options)
+  #   self.shows.build(options)
+  # end
 end
